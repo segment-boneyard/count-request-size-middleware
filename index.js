@@ -1,13 +1,11 @@
 
 var defaults = require('defaults');
 
-
 /**
  * Expose `generate`.
  */
 
 module.exports = generate;
-
 
 /**
  * Generate a count request size middleware.

@@ -1,6 +1,6 @@
 # count-request-size-middleware
 
-    Count the content bytes received for a request.
+  Count the request size of each [express](https://github.com/visionmedia/express) request.
 
 ## Example
 
@@ -11,8 +11,8 @@ var app = express();
 app.use(countRequestSize());
 
 app.use(function (req, res, next) {
-    console.log('Received ' + req._received + ' bytes');
-    next();
+  console.log('Received ' + req._received + ' bytes');
+  next();
 });
 ```
 
@@ -20,11 +20,26 @@ app.use(function (req, res, next) {
 
 ### countRequestSize(options)
 
-    Generate a count request size middleware with custom `options`: 
+  Generate a count request size middleware with `options` defaulting to:
 
 ```js
 {
     key: '_received' // save the size as `_received`
 }
+```
+
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
 ```
 

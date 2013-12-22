@@ -1,10 +1,7 @@
 {
-  "name": "s-count-request-size-middleware",
+  "name": "count-request-size-middleware",
+  "version": "1.0.0",
   "dependencies": {
     "defaults": "~1.0.0"
-  },
-  "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://registry.segment.io"
   }
 }
