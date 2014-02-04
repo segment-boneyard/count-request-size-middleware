@@ -1,5 +1,9 @@
 {
   "name": "count-request-size-middleware",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/segmentio/count-request-size-middleware.git"
+  },
   "version": "1.0.0",
   "dependencies": {
     "defaults": "~1.0.0"
